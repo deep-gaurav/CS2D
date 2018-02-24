@@ -1,0 +1,57 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://terrono01.png" type="Texture" id=1]
+[ext_resource path="res://autotile1.png" type="Texture" id=2]
+
+[node name="Node" type="Node"]
+
+[node name="terrono01" type="Sprite" parent="."]
+
+position = Vector2( 286.527, 227.893 )
+texture = ExtResource( 1 )
+vframes = 2
+hframes = 3
+_sections_unfolded = [ "Animation" ]
+
+[node name="terrono02" type="Sprite" parent="."]
+
+position = Vector2( 376.208, 227.158 )
+texture = ExtResource( 1 )
+vframes = 2
+hframes = 3
+frame = 1
+_sections_unfolded = [ "Animation" ]
+
+[node name="terrono03" type="Sprite" parent="."]
+
+position = Vector2( 471.77, 225.688 )
+texture = ExtResource( 1 )
+vframes = 2
+hframes = 3
+frame = 2
+_sections_unfolded = [ "Animation" ]
+
+[node name="terrono04" type="Sprite" parent="."]
+
+position = Vector2( 564.391, 224.217 )
+texture = ExtResource( 1 )
+vframes = 2
+hframes = 3
+frame = 4
+_sections_unfolded = [ "Animation" ]
+
+[node name="terrono05" type="Sprite" parent="."]
+
+position = Vector2( 665.834, 224.217 )
+texture = ExtResource( 1 )
+vframes = 2
+hframes = 3
+frame = 5
+_sections_unfolded = [ "Animation" ]
+
+[node name="autotile1" type="Sprite" parent="."]
+
+position = Vector2( 153.192, 238.8 )
+texture = ExtResource( 2 )
+
+

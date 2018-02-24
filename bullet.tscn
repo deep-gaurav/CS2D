@@ -1,0 +1,92 @@
+[gd_scene load_steps=4 format=2]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends RigidBody2D
+
+func _ready():
+	pass
+
+func _process(delta):
+	if get_colliding_bodies().size()==1:
+		if get_colliding_bodies()[0].is_in_group('player'):
+			get_colliding_bodies()[0].health-=10
+		queue_free()
+sync func del():
+	queue_free()"
+
+[sub_resource type="CapsuleShape2D" id=2]
+
+custom_solver_bias = 0.0
+radius = 5.15015
+height = 26.621
+
+[sub_resource type="GDScript" id=3]
+
+script/source = "extends Timer
+
+func _ready():
+	pass
+
+
+func _on_Timer_timeout():
+	get_parent().queue_free() # replace with function body
+"
+
+[node name="bullet" type="RigidBody2D" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 0.0
+custom_integrator = false
+continuous_cd = 1
+contacts_reported = 1
+contact_monitor = true
+sleeping = false
+can_sleep = false
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+script = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Polygon2D" type="Polygon2D" parent="." index="0"]
+
+polygon = PoolVector2Array( -15.5953, -4.87879, 14.2566, -5.06772, 18.7911, 0.0335522, 14.1621, 5.32376, -15.5953, 5.31204 )
+uv = PoolVector2Array(  )
+color = Color( 0.25, 0.202324, 0.0175781, 1 )
+vertex_colors = PoolColorArray(  )
+offset = Vector2( 0, 0 )
+antialiased = false
+texture = null
+texture_offset = Vector2( 0, 0 )
+texture_scale = Vector2( 1, 1 )
+texture_rotation = 0.0
+invert_enable = false
+invert_border = 100.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+rotation = 1.5708
+shape = SubResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Timer" type="Timer" parent="." index="2"]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = true
+autostart = true
+script = SubResource( 3 )
+
+[connection signal="timeout" from="Timer" to="Timer" method="_on_Timer_timeout"]
+
+
