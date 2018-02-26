@@ -37,7 +37,7 @@ modulate = Color( 1, 1, 1, 0.359098 )
 position = Vector2( 359.232, 257.149 )
 scale = Vector2( 40, 40 )
 texture = ExtResource( 3 )
-_sections_unfolded = [ "Transform" ]
+_sections_unfolded = [ "Visibility" ]
 
 [node name="up" type="TileMap" parent="." index="2"]
 
@@ -63,7 +63,6 @@ tile_data = PoolIntArray( -983069, 5, 0, -983068, 5, 0, -983067, 5, 0, -983066, 
 
 [node name="CanvasModulate" type="CanvasModulate" parent="." index="3"]
 
-visible = false
 color = Color( 0.335938, 0.335938, 0.335938, 1 )
 
 [node name="start points" type="Node" parent="." index="4"]

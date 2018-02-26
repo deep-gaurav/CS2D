@@ -19,6 +19,7 @@ func delrest():
 	if get_name()!=str(get_tree().get_network_unique_id()):
 		$CanvasLayer.queue_free()
 		$Camera2D.queue_free()
+		$showmask.queue_free()
 	set_network_master(int(get_name()))
 	$Name.text=multiplayer.players[int(get_name())]
 

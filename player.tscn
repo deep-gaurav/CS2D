@@ -1,4 +1,4 @@
-[gd_scene load_steps=169 format=2]
+[gd_scene load_steps=170 format=2]
 
 [ext_resource path="res://player.gd" type="Script" id=1]
 [ext_resource path="res://Sprites/transparentLight/transparentLight05.png" type="Texture" id=2]
@@ -8,46 +8,46 @@
 [ext_resource path="res://Sprites/transparentLight/transparentLight39.png" type="Texture" id=6]
 [ext_resource path="res://Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_0.png" type="Texture" id=7]
 [ext_resource path="res://Top_Down_Survivor/feet/idle/survivor-idle_0.png" type="Texture" id=8]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_0.png" type="Texture" id=9]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_1.png" type="Texture" id=10]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_2.png" type="Texture" id=11]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_3.png" type="Texture" id=12]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_4.png" type="Texture" id=13]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_5.png" type="Texture" id=14]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_6.png" type="Texture" id=15]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_7.png" type="Texture" id=16]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_8.png" type="Texture" id=17]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_9.png" type="Texture" id=18]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_10.png" type="Texture" id=19]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_11.png" type="Texture" id=20]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_12.png" type="Texture" id=21]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_13.png" type="Texture" id=22]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_14.png" type="Texture" id=23]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_15.png" type="Texture" id=24]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_16.png" type="Texture" id=25]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_17.png" type="Texture" id=26]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_18.png" type="Texture" id=27]
-[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_19.png" type="Texture" id=28]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_0.png" type="Texture" id=29]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_1.png" type="Texture" id=30]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_2.png" type="Texture" id=31]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_3.png" type="Texture" id=32]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_4.png" type="Texture" id=33]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_5.png" type="Texture" id=34]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_6.png" type="Texture" id=35]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_7.png" type="Texture" id=36]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_8.png" type="Texture" id=37]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_9.png" type="Texture" id=38]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_10.png" type="Texture" id=39]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_11.png" type="Texture" id=40]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_12.png" type="Texture" id=41]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_13.png" type="Texture" id=42]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_14.png" type="Texture" id=43]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_15.png" type="Texture" id=44]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_16.png" type="Texture" id=45]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_17.png" type="Texture" id=46]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_18.png" type="Texture" id=47]
-[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_19.png" type="Texture" id=48]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_0.png" type="Texture" id=9]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_1.png" type="Texture" id=10]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_2.png" type="Texture" id=11]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_3.png" type="Texture" id=12]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_4.png" type="Texture" id=13]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_5.png" type="Texture" id=14]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_6.png" type="Texture" id=15]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_7.png" type="Texture" id=16]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_8.png" type="Texture" id=17]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_9.png" type="Texture" id=18]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_10.png" type="Texture" id=19]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_11.png" type="Texture" id=20]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_12.png" type="Texture" id=21]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_13.png" type="Texture" id=22]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_14.png" type="Texture" id=23]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_15.png" type="Texture" id=24]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_16.png" type="Texture" id=25]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_17.png" type="Texture" id=26]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_18.png" type="Texture" id=27]
+[ext_resource path="res://Top_Down_Survivor/feet/strafe_left/survivor-strafe_left_19.png" type="Texture" id=28]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_0.png" type="Texture" id=29]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_1.png" type="Texture" id=30]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_2.png" type="Texture" id=31]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_3.png" type="Texture" id=32]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_4.png" type="Texture" id=33]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_5.png" type="Texture" id=34]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_6.png" type="Texture" id=35]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_7.png" type="Texture" id=36]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_8.png" type="Texture" id=37]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_9.png" type="Texture" id=38]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_10.png" type="Texture" id=39]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_11.png" type="Texture" id=40]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_12.png" type="Texture" id=41]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_13.png" type="Texture" id=42]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_14.png" type="Texture" id=43]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_15.png" type="Texture" id=44]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_16.png" type="Texture" id=45]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_17.png" type="Texture" id=46]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_18.png" type="Texture" id=47]
+[ext_resource path="res://Top_Down_Survivor/feet/run/survivor-run_19.png" type="Texture" id=48]
 [ext_resource path="res://Top_Down_Survivor/feet/walk/survivor-walk_0.png" type="Texture" id=49]
 [ext_resource path="res://Top_Down_Survivor/feet/walk/survivor-walk_1.png" type="Texture" id=50]
 [ext_resource path="res://Top_Down_Survivor/feet/walk/survivor-walk_2.png" type="Texture" id=51]
@@ -161,6 +161,7 @@
 [ext_resource path="res://Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_13.png" type="Texture" id=159]
 [ext_resource path="res://Top_Down_Survivor/handgun/meleeattack/survivor-meleeattack_handgun_14.png" type="Texture" id=160]
 [ext_resource path="res://lightmask.png" type="Texture" id=161]
+[ext_resource path="res://Lightmasks/Untitled.png" type="Texture" id=162]
 
 [sub_resource type="ShaderMaterial" id=1]
 
@@ -195,12 +196,12 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
 "loop": true,
-"name": "run",
+"name": "strafe-left",
 "speed": 12.0
 }, {
 "frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ) ],
 "loop": true,
-"name": "strafe-left",
+"name": "run",
 "speed": 12.0
 }, {
 "frames": [ ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ) ],
@@ -248,7 +249,7 @@ animations = [ {
 custom_solver_bias = 0.0
 radius = 80.2632
 
-[node name="Player" type="KinematicBody2D" index="0" groups=[
+[node name="Player" type="KinematicBody2D" groups=[
 "player",
 ]]
 
@@ -379,17 +380,20 @@ _sections_unfolded = [ "Region" ]
 
 [node name="feet" type="AnimatedSprite" parent="." index="1"]
 
+light_mask = 7
 frames = SubResource( 5 )
 animation = "idle"
 playing = true
+_sections_unfolded = [ "Visibility" ]
 
 [node name="body" type="AnimatedSprite" parent="." index="2"]
 
-light_mask = 0
+light_mask = 7
 frames = SubResource( 6 )
 animation = "handgun-idle"
-frame = 6
+frame = 19
 playing = true
+_sections_unfolded = [ "Material", "Visibility" ]
 
 [node name="Tween" type="Tween" parent="." index="3"]
 
@@ -406,33 +410,33 @@ _sections_unfolded = [ "playback" ]
 position = Vector2( -11.0263, 9.55618 )
 shape = SubResource( 7 )
 
-[node name="Light2D" type="Light2D" parent="." index="5"]
+[node name="showmask" type="Light2D" parent="." index="5"]
 
-visible = false
-position = Vector2( -45.0848, 5.28854 )
-scale = Vector2( 2, 2 )
+light_mask = 2
+position = Vector2( -5.85822, 73.8234 )
+scale = Vector2( 1.04555, 1 )
 enabled = true
 editor_only = false
 texture = ExtResource( 161 )
-offset = Vector2( 320.49, 0.131653 )
+offset = Vector2( 16.49, 49.8076 )
 texture_scale = 1.0
 color = Color( 1, 1, 1, 1 )
 energy = 1.0
-mode = 0
+mode = 3
 range_height = 0.0
 range_z_min = -1024
 range_z_max = 1024
 range_layer_min = 0
 range_layer_max = 0
-range_item_cull_mask = 1
-shadow_enabled = true
+range_item_cull_mask = 2
+shadow_enabled = false
 shadow_color = Color( 0, 0, 0, 0.718235 )
 shadow_buffer_size = 2048
 shadow_gradient_length = 0.0
 shadow_filter = 0
 shadow_filter_smooth = 0.0
-shadow_item_cull_mask = 1
-_sections_unfolded = [ "Range", "Shadow" ]
+shadow_item_cull_mask = 2
+_sections_unfolded = [ "Material", "Range", "Shadow", "Transform", "Visibility" ]
 
 [node name="Camera2D" type="Camera2D" parent="." index="6"]
 
@@ -458,6 +462,7 @@ drag_margin_bottom = 0.2
 editor_draw_screen = true
 editor_draw_limits = false
 editor_draw_drag_margin = false
+_sections_unfolded = [ "Drag Margin", "Editor", "Limit", "Offset", "Smoothing", "Visibility" ]
 
 [node name="Name" type="Label" parent="." index="7"]
 
@@ -466,9 +471,9 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = -96.0
-margin_top = -100.0
+margin_top = -101.0
 margin_right = -11.0
-margin_bottom = -81.0
+margin_bottom = -82.0
 rect_scale = Vector2( 2, 2 )
 rect_pivot_offset = Vector2( 0, 0 )
 mouse_filter = 2
@@ -480,11 +485,40 @@ align = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-_sections_unfolded = [ "Rect" ]
+_sections_unfolded = [ "Rect", "Visibility" ]
 
 [node name="firepoint" type="Position2D" parent="." index="8"]
 
 position = Vector2( 94.9996, 51.9998 )
+
+[node name="hidemask" type="Light2D" parent="." index="9"]
+
+visible = false
+light_mask = 8
+position = Vector2( -3.07562, -1.09815 )
+scale = Vector2( 45.5757, 34.6963 )
+enabled = true
+editor_only = false
+texture = ExtResource( 162 )
+offset = Vector2( 0, 0 )
+texture_scale = 1.0
+color = Color( 1, 1, 1, 1 )
+energy = 1.0
+mode = 3
+range_height = 0.0
+range_z_min = -1024
+range_z_max = 1024
+range_layer_min = 0
+range_layer_max = 0
+range_item_cull_mask = 4
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 0 )
+shadow_buffer_size = 2048
+shadow_gradient_length = 0.0
+shadow_filter = 0
+shadow_filter_smooth = 0.0
+shadow_item_cull_mask = 1
+_sections_unfolded = [ "Range", "Visibility" ]
 
 [connection signal="animation_finished" from="body" to="." method="_on_body_animation_finished"]
 

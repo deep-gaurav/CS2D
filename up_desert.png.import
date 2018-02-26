@@ -6,7 +6,11 @@ path="res://.import/up_desert.png-dc28f1f0b5383f054314fadad39c0a1a.stex"
 
 [deps]
 
+source_file="res://up_desert.png"
 source_md5="53bf2454be48cf3b9306ce10b9b69cbf"
+
+dest_files=[ "res://.import/up_desert.png-dc28f1f0b5383f054314fadad39c0a1a.stex" ]
+dest_md5="b8d9e08e4af82ad44e70996d0aa71a84"
 
 [params]
 
@@ -15,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

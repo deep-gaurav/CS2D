@@ -6,7 +6,11 @@ path="res://.import/lightmask.png-75218917e09f939a23b277ca8414a358.stex"
 
 [deps]
 
-source_md5="d57dbcaf29c0eb8cd30ab5291ce8a3a7"
+source_file="res://lightmask.png"
+source_md5="adc801984ef04d604569e8f366abea50"
+
+dest_files=[ "res://.import/lightmask.png-75218917e09f939a23b277ca8414a358.stex" ]
+dest_md5="6b3164c58468b65482134161bd6ad632"
 
 [params]
 
