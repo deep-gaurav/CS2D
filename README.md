@@ -1,6 +1,8 @@
 # CS2D
 Counter Strike inspired 2D game in Godot
 
+![Scrrenshot](https://media.discordapp.net/attachments/361593010862948362/420097225172058122/unknown.png)
+
 ## Getting Started
 
 The project uses 2 scenes to handle lobby and 1 singleton to manage multiplayer throughout
